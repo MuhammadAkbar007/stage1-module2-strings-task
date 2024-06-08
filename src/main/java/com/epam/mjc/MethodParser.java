@@ -1,7 +1,6 @@
 package com.epam.mjc;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MethodParser {
@@ -45,7 +44,7 @@ public class MethodParser {
                 methodName = headerParts[2];
                 break;
             case 2:
-                accessModifier = "package";
+                accessModifier = null;
                 returnType = headerParts[0];
                 methodName = headerParts[1];
                 break;
